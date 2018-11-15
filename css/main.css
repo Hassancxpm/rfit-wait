@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,12 +13,12 @@ Primary use:
 
 @font-face {
   font-family: Ubuntu-Regular;
-  src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf'); 
+  src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
 }
 
 @font-face {
   font-family: Ubuntu-Bold;
-  src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf'); 
+  src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf');
 }
 
 
@@ -263,9 +263,9 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
 .bor1 {
-  border-bottom-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .bor2 {
@@ -275,7 +275,7 @@ Primary use:
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   margin: 0 10px 20px 10px;
@@ -283,7 +283,7 @@ Primary use:
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -353,7 +353,13 @@ Primary use:
 /*---------------------------------------------*/
 
 
+/*------------------------------------------------------------------
+[ Logo ]*/
+.rfitlogo {
+  width: 20em;
+}
 
+/*---------------------------------------------*/
 
 
 
@@ -466,7 +472,7 @@ Primary use:
   .respon1 {
     padding-top: 35px;
   }
-  
+
 }
 
 
