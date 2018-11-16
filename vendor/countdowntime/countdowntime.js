@@ -39,7 +39,6 @@
             var deadline = new Date(Date.parse(new Date()) + endDate * 24 * 60 * 60 * 1000 + endHours * 60 * 60 * 1000);
           }
 
-
           initializeClock(deadline);
 
           function getTimeRemaining(endtime) {
@@ -47,7 +46,7 @@
             var seconds = Math.floor((t / 1000) % 60);
             var minutes = Math.floor((t / 1000 / 60) % 60);
             var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-            var days = 4;
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
             return {
               'total': t,
               'days': days,
